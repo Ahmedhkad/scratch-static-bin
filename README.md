@@ -25,3 +25,14 @@ to remove image run
 ```
 docker image rm scratch-static:0.1
 ```
+inside main.bin file after execute it, you will see this text and question
+```
+This is compiled staticly C program Made with main.c and GCC for Scratch Static Bin Image on Docker 
+
+[Y/y] to Coninue or [N/n] to Exit?y
+You said y
+Still nothing here!! no shell no library only one lonely static main.bin file
+
+[Y/y] to Coninue or [N/n] to Exit?n
+Bye!
+```
